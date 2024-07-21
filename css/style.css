@@ -1,0 +1,10 @@
+.icone {
+  width: 32px;
+  height: 40px;
+}
+
+@media (max-width: 767px) {
+  .posicao {
+    top: 60%;
+  }
+}
