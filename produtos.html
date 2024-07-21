@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Petshop Melhor Amigo</title>
     <link rel="stylesheet" href="css/style.css" />
-    
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
@@ -16,147 +16,250 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-
-    <body>
-   <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" role="navigation">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
-                <img class="icone" src="/fotos/OSSO.png" alt="Icone de Osso" />
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav me-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link bg-success text-white rounded p-2" href="produtos.html">Produtos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="galeria.html">Galeria de fotos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contato.html">Contato</a>
-                    </li>
-                </ul>
-            </div>
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary fixed-top"
+      role="navigation"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img class="icone" src="/fotos/OSSO.png" alt="Icone de Osso" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link bg-success text-white rounded p-2"
+                href="produtos.html"
+                >Produtos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="galeria.html">Galeria de fotos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contato.html">Contato</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
-    
-        <div class="bg-primary text-white p-3"></div>
-        <div class="space"></div>
-        <div class="bg-primary text-white p-3"></div>
-        <div class="space"></div>
-        <div class="bg-white text-white p-3"></div>
-        <div class="space"></div>
-    
-        <div class="container d-flex justify-content-center align-items-center">
-            <form class="d-flex search-form" role="search" id="searchForm">
-                <input class="form-control me-2" type="search" id="searchInput" placeholder="Digite o produto" aria-label="Pesquisar">
-                <button class="btn btn-outline-dark" type="submit">Buscar</button>
-            </form>
-            
-        </div>
 
+    <div class="bg-primary text-white p-3"></div>
+    <div class="space"></div>
+    <div class="bg-primary text-white p-3"></div>
+    <div class="space"></div>
+    <div class="bg-white text-white p-3"></div>
+    <div class="space"></div>
 
-        <h2 class="container text-center my-3 my-xl-5 custom-font">Produtos</h2>
+    <div class="container d-flex justify-content-center align-items-center">
+      <form class="d-flex search-form" role="search" id="searchForm">
+        <input
+          class="form-control me-2"
+          type="search"
+          id="searchInput"
+          placeholder="Digite o produto"
+          aria-label="Pesquisar"
+        />
+        <button class="btn btn-outline-dark" type="submit">Buscar</button>
+      </form>
+    </div>
 
-        <div class="container row mx-auto">    
-            <div class="col-12 col-md-6 col-xl-4 pb-4 product">
-            <div class="card">
-              <img class="img-fluid d-block d-md-none" src="fotos/BANHO.jpg" alt="Foto de um cachorro tomando banho">
-              <img class="img fluid d-none d-md-block d-xl-none" src="fotos/BANHO.jpg" alt="Foto de um cachorro tomando banho">
-              <img class="img fluid d-none d-md-none d-xl-block" src="fotos/BANHO.jpg" alt="Foto de um cachorro tomando banho">
-              <div class="card-body">
-                <h5 class="card-title">Banho</h5>
-                <p class="card-text">Limpeza e higienização completa.</p>
-                <p class="card-text">R$ 0,00</p>
-                <a href="#" class="btn btn-success rounded-0 border-0">Ver mais</a>
-              </div>
-            </div>
-        </div>
-        
-        <div class="col-12 col-md-6 col-xl-4 pb-4 product">
-            <div class="card">
-              <img class="img-fluid d-block d-md-none" src="fotos/TOSA.jpg" alt="Foto de um cachorro aguardando a tosa">
-              <img class="img fluid d-none d-md-block d-xl-none" src="fotos/TOSA.jpg" alt="Foto de um cachorro aguardando a tosa">
-              <img class="img fluid d-none d-md-none d-xl-block" src="fotos/TOSA.jpg" alt="Foto de um cachorro aguardando a tosa">
-              <div class="card-body">
-                <h5 class="card-title">Tosa</h5>
-                <p class="card-text">Tosa profissional.</p>
-                <p class="card-text">R$ 0,00</p>
-                <a href="#" class="btn btn-success rounded-0 border-0">Ver mais</a>>
-              </div>
-            </div>
-        </div>
-        <div class="col-12 col-md-6 col-xl-4 pb-4 product">
-            <div class="card">
-              <img class="img-fluid d-block d-md-none" src="fotos/BANHO E TOSA.jpg" alt="Foto de um cachorro tomando banho e aguardando para ser tosado">
-              <img class="img fluid d-none d-md-block d-xl-none" src="fotos/BANHO E TOSA.jpg" alt="Foto de um cachorro tomando banho e aguardando para ser tosado">
-              <img class="img fluid d-none d-md-none d-xl-block" src="fotos/BANHO E TOSA.jpg" alt="Foto de um cachorro tomando banho e aguardando para ser tosado">
-              <div class="card-body">
-                <h5 class="card-title">Banho e tosa</h5>
-                <p class="card-text">Todo o cuidado para o seu melhor amigo.</p>
-                <p class="card-text">R$ 0,00</p>
-                <a href="#" class="btn btn-success rounded-0 border-0">Ver mais</a>
-              </div>
-            </div>
-        </div>
-        <div class="col-12 col-md-6 col-xl-4 pb-4 product">
-            <div class="card">
-              <img class="img-fluid d-block d-md-none" src="fotos/RAÇÃO2.jpg" alt="Ração Premium">
-              <img class="img fluid d-none d-md-block d-xl-none" src="fotos/RAÇÃO2.jpg" alt="Ração Premium">
-              <img class="img fluid d-none d-md-none d-xl-block" src="fotos/RAÇÃO2.jpg" alt="Ração Premium">
-              <div class="card-body">
-                <h5 class="card-title">Ração Premium 1kg</h5>
-                <p class="card-text">Ração Premium de alta qualidade para animais de pequeno porte.</p>
-                <p class="card-text">R$ 0,00</p>
-                <a href="#" class="btn btn-success rounded-0 border-0">Ver mais</a>
-              </div>
-            </div>
-        </div>
-        <div class="col-12 col-md-6 col-xl-4 pb-4 product">
-            <div class="card">
-              <img class="img-fluid d-block d-md-none" src="fotos/RAÇÃO3.jpg" alt="Ração Premium">
-              <img class="img fluid d-none d-md-block d-xl-none" src="fotos/RAÇÃO3.jpg" alt="Ração Premium">
-              <img class="img fluid d-none d-md-none d-xl-block" src="fotos/RAÇÃO3.jpg" alt="Ração Premium">
-              <div class="card-body">
-                <h5 class="card-title">Ração Premium 5kg</h5>
-                <p class="card-text">Ração premium de alta qualidade para animais de médio porte.</p>
-                <p class="card-text">R$ 0,00</p>
-                <a href="#" class="btn btn-success rounded-0 border-0">Ver mais</a>
-              </div>
-            </div>
-        </div>
-        <div class="col-12 col-md-6 col-xl-4 pb-4 product">
-            <div class="card">
-              <img class="img-fluid d-block d-md-none" src="fotos/RAÇÃO.jpg" alt="Ração Premium">
-              <img class="img fluid d-none d-md-block d-xl-none" src="fotos/RAÇÃO.jpg" alt="Ração Premium">
-              <img class="img fluid d-none d-md-none d-xl-block" src="fotos/RAÇÃO.jpg" alt="Ração Premium">
-              <div class="card-body">
-                <h5 class="card-title">Ração Premium 15kg</h5>
-                <p class="card-text">Ração premium de alta qualidade para animais de grande porte.</p>
-                <p class="card-text">R$ 0,00</p>
-                <a href="#" class="btn btn-success rounded-0 border-0">Ver mais</a>
-              </div>
-            </div>
+    <h2 class="container text-center my-3 my-xl-5 custom-font">Produtos</h2>
+
+    <div class="container row mx-auto">
+      <div class="col-12 col-md-6 col-xl-4 pb-4 product">
+        <div class="card">
+          <img
+            class="img-fluid d-block d-md-none"
+            src="fotos/BANHO.jpg"
+            alt="Foto de um cachorro tomando banho"
+          />
+          <img
+            class="img-fluid d-none d-md-block d-xl-none"
+            src="fotos/BANHO.jpg"
+            alt="Foto de um cachorro tomando banho"
+          />
+          <img
+            class="img-fluid d-none d-md-none d-xl-block"
+            src="fotos/BANHO.jpg"
+            alt="Foto de um cachorro tomando banho"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Banho</h5>
+            <p class="card-text">Limpeza e higienização completa.</p>
+            <p class="card-text">R$ 0,00</p>
+            <a href="#" class="btn btn-success rounded-0 border-0">Ver mais</a>
           </div>
         </div>
+      </div>
 
-      <footer class="text-center py-3 w-100 bg-">
-          <p class="mb-0">2024 <i class="fa-regular fa-copyright"></i> Desenvolvido por Amanda Cavalcanti | Projeto fictício sem fins comerciais.</p>
-      </footer>
+      <div class="col-12 col-md-6 col-xl-4 pb-4 product">
+        <div class="card">
+          <img
+            class="img-fluid d-block d-md-none"
+            src="fotos/TOSA.jpg"
+            alt="Foto de um cachorro aguardando a tosa"
+          />
+          <img
+            class="img-fluid d-none d-md-block d-xl-none"
+            src="fotos/TOSA.jpg"
+            alt="Foto de um cachorro aguardando a tosa"
+          />
+          <img
+            class="img-fluid d-none d-md-none d-xl-block"
+            src="fotos/TOSA.jpg"
+            alt="Foto de um cachorro aguardando a tosa"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Tosa</h5>
+            <p class="card-text">Tosa profissional.</p>
+            <p class="card-text">R$ 0,00</p>
+            <a href="#" class="btn btn-success rounded-0 border-0">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-xl-4 pb-4 product">
+        <div class="card">
+          <img
+            class="img-fluid d-block d-md-none"
+            src="fotos/BANHO E TOSA.jpg"
+            alt="Foto de um cachorro tomando banho e aguardando para ser tosado"
+          />
+          <img
+            class="img-fluid d-none d-md-block d-xl-none"
+            src="fotos/BANHO E TOSA.jpg"
+            alt="Foto de um cachorro tomando banho e aguardando para ser tosado"
+          />
+          <img
+            class="img-fluid d-none d-md-none d-xl-block"
+            src="fotos/BANHO E TOSA.jpg"
+            alt="Foto de um cachorro tomando banho e aguardando para ser tosado"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Banho e tosa</h5>
+            <p class="card-text">Todo o cuidado para o seu melhor amigo.</p>
+            <p class="card-text">R$ 0,00</p>
+            <a href="#" class="btn btn-success rounded-0 border-0">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-xl-4 pb-4 product">
+        <div class="card">
+          <img
+            class="img-fluid d-block d-md-none"
+            src="fotos/RAÇÃO2.jpg"
+            alt="Ração Premium"
+          />
+          <img
+            class="img-fluid d-none d-md-block d-xl-none"
+            src="fotos/RAÇÃO2.jpg"
+            alt="Ração Premium"
+          />
+          <img
+            class="img-fluid d-none d-md-none d-xl-block"
+            src="fotos/RAÇÃO2.jpg"
+            alt="Ração Premium"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Ração Premium 1kg</h5>
+            <p class="card-text">
+              Ração Premium de alta qualidade para animais de pequeno porte.
+            </p>
+            <p class="card-text">R$ 0,00</p>
+            <a href="#" class="btn btn-success rounded-0 border-0">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-xl-4 pb-4 product">
+        <div class="card">
+          <img
+            class="img-fluid d-block d-md-none"
+            src="fotos/RAÇÃO3.jpg"
+            alt="Ração Premium"
+          />
+          <img
+            class="img-fluid d-none d-md-block d-xl-none"
+            src="fotos/RAÇÃO3.jpg"
+            alt="Ração Premium"
+          />
+          <img
+            class="img-fluid d-none d-md-none d-xl-block"
+            src="fotos/RAÇÃO3.jpg"
+            alt="Ração Premium"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Ração Premium 5kg</h5>
+            <p class="card-text">
+              Ração premium de alta qualidade para animais de médio porte.
+            </p>
+            <p class="card-text">R$ 0,00</p>
+            <a href="#" class="btn btn-success rounded-0 border-0">Ver mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-6 col-xl-4 pb-4 product">
+        <div class="card">
+          <img
+            class="img-fluid d-block d-md-none"
+            src="fotos/RAÇÃO.jpg"
+            alt="Ração Premium"
+          />
+          <img
+            class="img-fluid d-none d-md-block d-xl-none"
+            src="fotos/RAÇÃO.jpg"
+            alt="Ração Premium"
+          />
+          <img
+            class="img-fluid d-none d-md-none d-xl-block"
+            src="fotos/RAÇÃO.jpg"
+            alt="Ração Premium"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Ração Premium 15kg</h5>
+            <p class="card-text">
+              Ração premium de alta qualidade para animais de grande porte.
+            </p>
+            <p class="card-text">R$ 0,00</p>
+            <a href="#" class="btn btn-success rounded-0 border-0">Ver mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="script.js"></script>
-    </body>
-    </html>
-    
+    <footer class="text-center py-3 w-100 bg-white">
+      <p class="mb-0">
+        2024 <i class="fa-regular fa-copyright"></i> Desenvolvido por Amanda
+        Cavalcanti | Projeto fictício sem fins comerciais.
+      </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

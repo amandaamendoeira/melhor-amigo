@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", function () {
     subscriptionForm.addEventListener("submit", function (e) {
       e.preventDefault();
 
-      const emailInput = document.getElementById("subscriptionEmail"); // Alterado o ID aqui
+      const emailInput = document.getElementById("subscriptionEmail");
       const email = emailInput.value.trim();
 
       if (email && validateEmail(email)) {
