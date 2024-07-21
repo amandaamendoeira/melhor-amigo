@@ -3,6 +3,10 @@
   height: 40px;
 }
 
+.custom-font {
+  font-family: "Inter";
+}
+
 @media (max-width: 767px) {
   .posicao {
     top: 60%;
